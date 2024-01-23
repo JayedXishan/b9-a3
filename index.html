@@ -34,6 +34,13 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .img-overlay {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(19, 19, 24);
+            z-index: 10;
+        }
     </style>
 </head>
 
@@ -59,7 +66,8 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-2xl px-[0px] lg:text-4xl font-extrabold">Hockey<span class="text-hockey-primary ">’</span>s</a>
+                <a class="btn btn-ghost text-2xl px-[0px] lg:text-4xl font-extrabold">Hockey<span
+                        class="text-hockey-primary ">’</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-base font-normal text-[#424247]">
@@ -72,7 +80,9 @@
             </div>
             <div class="navbar-end">
                 <i class="fa-solid fa-magnifying-glass hidden lg:block mx-4"></i>
-                <a class="btn bg-hockey-primary text-white font-bold text-lg lg:text-xl lg:leading-[0px]  py-3 lg:py-4 px-4 lg:px-6">Get Ticket</a>
+                <a
+                    class="btn bg-hockey-primary text-white font-bold text-lg lg:text-xl lg:leading-[0px]  py-3 lg:py-4 px-4 lg:px-6">Get
+                    Ticket</a>
             </div>
         </div>
     </nav>
@@ -155,6 +165,33 @@
                         consectetur adipisicing</p>
                 </div>
 
+            </div>
+        </section>
+
+        <!-- program section -->
+        <section>
+            <div
+                class=" flex flex-col justify-center items-center mx-auto mt-10 lg:mt-[120px] mb-6 lg:mb-20 border-y-2 border-dashed py-8">
+                <h3 class="text-xl lg:text-4xl font-extrabold text-hockey-secondary mb-6">Professional Hockeys Club</h3>
+                <p class="lg:w-1/2 text-center text-base font-medium text-[#13131899]">Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Magni ipsam voluptas praesentium officiis architecto nisi.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-6">
+                <div>
+                    <div class="relative bg-[#464646] rounded-xl h-[338px]">
+                        <img class="absolute mix-blend-overlay h-full" src="./Images/2.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="relative bg-[#464646] rounded-xl h-[338px]">
+                        <img class="absolute mix-blend-overlay h-full" src="./Images/3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <div class="relative bg-[#464646] rounded-xl h-[450px]">
+                        <img class="absolute mix-blend-overlay h-full" src="./Images/4.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
